@@ -28,5 +28,5 @@ nsel=nsel.sum(axis=0)
 y=nsel[nsel<5].index #5 or greater than 5
 df.drop(columns=y,inplace=True)
 '''
-
+df.rename(columns={"labels":"x"},inplace=True)
 df.to_csv("Microbes.csv")
