@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import math
 for i in ["clust_1","clust_2"]:
 	Adj=pandas.read_csv(str(i)+"_adj.csv")
-	p=pandas.read_csv(str(i)+"_pvalues.csv")
+	p=pandas.read_csv(str(i)+"_p_values.csv")
 	Adj.set_index("Unnamed: 0",inplace=True)
 	p.set_index("Unnamed: 0",inplace=True)
 	p.fillna(1,inplace=True) #To not select them
