@@ -11,6 +11,8 @@ for (i in colnames(v_data)){
   if (v_a[[i]]==0){v_data[[i]]<-NULL}
 }
 
+v_data<-v_data[,c("PIV3","PIV4","RV","Boca")] #Selected viruses after prevalance filter for atleast 5 patients
+
 b_dsim=vegdist(b_data,method='bray',diag=TRUE,upper=TRUE)
 f_dsim=vegdist(f_data,method='bray',diag=TRUE,upper=TRUE)
 v_dsim=vegdist(v_data,method='bray',diag=TRUE,upper=TRUE)
@@ -35,7 +37,7 @@ for (x in list(W1,W2,W3)){
   print(table(labels))
   count<-count+1
   }
-clusters=c(3,2,3)
+clusters=c(3,2,4)
 count<-1
 for (x in list(W1,W2,W3)){
 labels=spectralClustering(x,clusters[count])

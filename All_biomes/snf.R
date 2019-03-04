@@ -11,6 +11,8 @@ for (i in colnames(v_data)){
   if (v_a[[i]]==0){v_data[[i]]<-NULL}
 }
 
+v_data<-v_data[,c("PIV3","PIV4","RV","Boca")] #Selected viruses after prevalance filter for atleast 5 patients
+
 b_dsim=vegdist(b_data,method='bray',diag=TRUE,upper=TRUE)
 f_dsim=vegdist(f_data,method='bray',diag=TRUE,upper=TRUE)
 v_dsim=vegdist(v_data,method='bray',diag=TRUE,upper=TRUE)
@@ -115,4 +117,5 @@ X_data=read.csv("./../Data/clinical_attr.csv",row.names = 1)
     }
   }
   sink()
+  
   
