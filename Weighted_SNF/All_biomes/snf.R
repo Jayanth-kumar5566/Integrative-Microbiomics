@@ -39,46 +39,29 @@ weight_b=dim(b_data)[2]
 weight_f=dim(f_data)[2]
 weight_v=dim(v_data)[2]
 
-names=c("b+f","f+v","b+v")
-weights_snf=list(c(weight_b,weight_f),c(weight_f,weight_v),c(weight_b,weight_v))
-count<-1
-k<-c()
-tmp_k<-list()
-for (x in list(list(W1,W2),list(W2,W3),list(W1,W3))){
-  print(names[count])
-  sil_values=c()
-  for (i in 2:217){
-    W = SNF_weighted_iter(x,i,20,weight = weights_snf[[count]])
-    z=estimateNumberOfClustersGivenGraph(W)$`Eigen-gap best`
-    labels=spectralClustering(W,z)
-    sil_values<-c(sil_values,silhouette_score(W,labels))
-  }
-  tmp_k[[count]]<-sil_values
-  tuned_k<-which.max(sil_values)+1 #since starts from 2
-  k<-c(k,tuned_k)
-  print(paste(tuned_k,sil_values[tuned_k-1],sep = " "))
-  count<-count+1
-}
-
-#k<-c(13,5,4) #from above
-count<-1
-for (x in list(list(W1,W2),list(W2,W3),list(W1,W3))){
-  print(names[count])
-  W = SNF_weighted_iter(x,k[count],20,weight = weights_snf[[count]])
+weights_snf=c(weight_b,weight_f,weight_v)
+sil_values=c()
+for (i in 2:217){
+  W = SNF_weighted_iter(list(W1,W2,W3),i,20,weight = weights_snf)
   z=estimateNumberOfClustersGivenGraph(W)$`Eigen-gap best`
   labels=spectralClustering(W,z)
-  print(table(labels))
-  lab=as.data.frame(labels,row.names = row.names(b_data))
-  write.csv(lab,paste('./results/',names[count],"_labels",".csv",sep=''))
-  write.csv(W,paste('./results/',names[count],"_matrix",".csv",sep=''))
-  count=count+1
+  sil_values<-c(sil_values,silhouette_score(W,labels))
 }
+tuned_k<-which.max(sil_values)+1 #since starts from 2
+print(paste(tuned_k,sil_values[tuned_k-1],sep = " "))
+
+W = SNF_weighted_iter(list(W1,W2,W3),tuned_k,20,weight = weights_snf)
+z=estimateNumberOfClustersGivenGraph(W)$`Eigen-gap best`
+labels=spectralClustering(W,z)
+print(table(labels))
+lab=as.data.frame(labels,row.names = row.names(b_data))
+write.csv(lab,paste("./results/labels",".csv",sep=''))
+write.csv(W,paste("./results/matrix",".csv",sep=''))
 
 library(dunn.test)
 X_data=read.csv("./../../Data/clinical_attr.csv",row.names = 1)
-count<-1
-for (nam in names){
-  labels=read.csv(paste("./results/",nam,"_labels.csv",sep=""),row.names = 1)
+
+  labels=read.csv(paste("./results/labels.csv",sep=""),row.names = 1)
   
   Y_data=merge(X_data,labels,by="row.names",all.y = TRUE)
   row.names(Y_data)<-Y_data$Row.names;Y_data$Row.names<-NULL
@@ -123,19 +106,17 @@ for (nam in names){
   
   pop1=subset(Y_data,x==1)
   pop2=subset(Y_data,x==2)
-  
-  sink(paste(nam,"table.csv",sep=''))
+  pop3=subset(Y_data,x==3)
+  pop4=subset(Y_data,x==4)  
+  sink(paste("table.csv",sep=''))
   for (i in sel){
     if(class(pop1[[i]])=="integer" | class(pop1[[i]])=="numeric"){
-      x=paste(i,median(pop1[[i]],na.rm = TRUE),var(pop1[[i]],na.rm = TRUE),median(pop2[[i]],na.rm = TRUE),var(pop2[[i]],na.rm = TRUE),ch_dif[[i]],sep=",")
+      x=paste(i,median(pop1[[i]],na.rm = TRUE),var(pop1[[i]],na.rm = TRUE),median(pop2[[i]],na.rm = TRUE),var(pop2[[i]],na.rm = TRUE),median(pop3[[i]],na.rm = TRUE),var(pop3[[i]],na.rm = TRUE),median(pop4[[i]],na.rm = TRUE),var(pop4[[i]],na.rm = TRUE),ch_dif[[i]],sep=",")
       print(x)
     }
     else{
-      x=paste(i,toString(table(pop1[[i]])),toString(table(pop2[[i]])),ch_dif[[i]],sep=",")
+      x=paste(i,toString(table(pop1[[i]])),toString(table(pop2[[i]])),toString(table(pop3[[i]])),toString(table(pop4[[i]])),ch_dif[[i]],sep=",")
       print(x)
     }
   }
   sink()
-count=count+1
-}  
-
