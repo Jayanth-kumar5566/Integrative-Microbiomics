@@ -5,9 +5,9 @@
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -1.225482 (0.3306)
-1 - 3 :  1.073435 (0.2831)
-2 - 3 :  1.688648 (0.2739)
+1 - 2 : -0.421946 (0.6731)
+1 - 3 :  1.278938 (0.3014)
+2 - 3 :  1.473948 (0.4215)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -18,9 +18,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.079895 (0.9363)
-1 - 3 :  1.752825 (0.2389)
-2 - 3 :  1.700160 (0.1337)
+1 - 2 :  0.591557 (0.5541)
+1 - 3 :  1.874463 (0.1826)
+2 - 3 :  1.545185 (0.1835)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -31,9 +31,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.281554 (0.7783)
-1 - 3 : -0.642945 (1.0000)
-2 - 3 : -0.495472 (0.9304)
+1 - 2 : -0.195189 (0.8452)
+1 - 3 : -0.621287 (1.0000)
+2 - 3 : -0.512597 (0.9123)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -44,9 +44,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.099513 (0.9207)
-1 - 3 :  0.982875 (0.4885)
-2 - 3 :  1.026662 (0.9137)
+1 - 2 :  0.317047 (0.7512)
+1 - 3 :  1.082815 (0.8367)
+2 - 3 :  0.905146 (0.5481)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -57,9 +57,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.062483 (0.9502)
-1 - 3 : -0.359987 (1.0000)
-2 - 3 : -0.325762 (1.0000)
+1 - 2 :  0.276098 (0.7825)
+1 - 3 : -0.283158 (1.0000)
+2 - 3 : -0.419198 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -70,9 +70,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.088388 (0.9296)
-1 - 3 : -0.475184 (0.9520)
-2 - 3 : -0.516817 (1.0000)
+1 - 2 :  0.245774 (0.8059)
+1 - 3 : -0.442345 (0.9874)
+2 - 3 : -0.560544 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -83,9 +83,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.790195 (0.6441)
-1 - 3 : -0.539721 (0.5894)
-2 - 3 : -0.937462 (1.0000)
+1 - 2 :  0.762059 (0.6690)
+1 - 3 : -0.560017 (0.5755)
+2 - 3 : -0.938877 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -96,9 +96,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.259743 (0.7951)
-1 - 3 :  0.504318 (1.0000)
-2 - 3 :  0.368882 (1.0000)
+1 - 2 :  0.381611 (1.0000)
+1 - 3 :  0.529955 (1.0000)
+2 - 3 :  0.327888 (0.7430)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -109,9 +109,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.339506 (1.0000)
-1 - 3 :  0.105212 (1.0000)
-2 - 3 : -0.067998 (0.9458)
+1 - 2 :  0.170117 (1.0000)
+1 - 3 :  0.061842 (1.0000)
+2 - 3 : -0.025578 (0.9796)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -122,9 +122,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -2.382927 (0.0515)
-1 - 3 : -1.124123 (0.3914)
-2 - 3 :  0.055440 (0.9558)
+1 - 2 : -1.918335 (0.1652)
+1 - 3 : -0.990005 (0.4833)
+2 - 3 : -0.029672 (0.9763)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -134,10 +134,10 @@ Reject Ho if p <= alpha
                              (Benjamini-Hochberg)                              
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
----------------------------
-1 - 2 : -3.200686 (0.0041)*
-1 - 3 : -0.656095 (0.5118)
-2 - 3 :  0.921638 (0.5351)
+--------------------------
+1 - 2 : -2.293781 (0.0654)
+1 - 3 : -0.411597 (0.6806)
+2 - 3 :  0.724143 (0.7035)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -149,9 +149,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 ---------------------------
-1 - 2 : -7.737910 (0.0000)*
-1 - 3 : -1.653970 (0.0981)
-2 - 3 :  2.160852 (0.0461)*
+1 - 2 : -6.693614 (0.0000)*
+1 - 3 : -1.312165 (0.1895)
+2 - 3 :  2.003909 (0.0676)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -164,9 +164,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.359127 (0.7195)
-1 - 3 :  0.581449 (1.0000)
-2 - 3 :  0.400481 (1.0000)
+1 - 2 :  0.535857 (0.8881)
+1 - 3 :  0.616203 (1.0000)
+2 - 3 :  0.342431 (0.7320)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -177,9 +177,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  1.290871 (0.2951)
-1 - 3 : -0.737843 (0.4606)
-2 - 3 : -1.366381 (0.5155)
+1 - 2 :  1.150032 (0.3752)
+1 - 3 : -0.791185 (0.4288)
+2 - 3 : -1.344406 (0.5365)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -190,9 +190,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 ---------------------------
-1 - 2 : -3.229045 (0.0037)*
-1 - 3 :  0.066943 (0.9466)
-2 - 3 :  1.653000 (0.1475)
+1 - 2 : -2.751115 (0.0178)*
+1 - 3 :  0.221378 (0.8248)
+2 - 3 :  1.571948 (0.1739)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -203,9 +203,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 ---------------------------
-1 - 2 : -4.051897 (0.0002)*
-1 - 3 : -0.596800 (0.5506)
-2 - 3 :  1.398712 (0.2428)
+1 - 2 : -3.384644 (0.0021)*
+1 - 3 : -0.390753 (0.6960)
+2 - 3 :  1.281598 (0.3000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -216,9 +216,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -1.042318 (0.2973)
-1 - 3 : -1.580019 (0.3423)
-2 - 3 : -1.047473 (0.4423)
+1 - 2 : -0.976165 (0.3290)
+1 - 3 : -1.547425 (0.3653)
+2 - 3 : -1.032802 (0.4525)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -229,9 +229,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.335341 (1.0000)
-1 - 3 : -0.124379 (1.0000)
-2 - 3 :  0.041648 (0.9668)
+1 - 2 : -0.334391 (1.0000)
+1 - 3 : -0.119312 (1.0000)
+2 - 3 :  0.047478 (0.9621)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -242,9 +242,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.925223 (0.5323)
-1 - 3 : -0.475892 (0.6342)
-2 - 3 : -0.926803 (1.0000)
+1 - 2 :  1.098690 (0.8157)
+1 - 3 : -0.454418 (0.6495)
+2 - 3 : -0.987838 (0.4848)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -255,9 +255,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 ---------------------------
-1 - 2 : -3.630006 (0.0009)*
-1 - 3 : -0.898465 (0.5534)
-2 - 3 :  0.892094 (0.3723)
+1 - 2 : -2.540134 (0.0332)*
+1 - 3 : -0.608413 (0.5429)
+2 - 3 :  0.651785 (0.7718)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -269,14 +269,27 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -1.259450 (0.6236)
-1 - 3 :  0.439593 (0.6602)
-2 - 3 :  1.055007 (0.4371)
+1 - 2 : -0.987843 (0.4848)
+1 - 3 :  0.519759 (0.6032)
+2 - 3 :  0.997557 (0.9555)
 
 alpha = 0.05
 Reject Ho if p <= alpha
 [1] "Broncoodialator..Yes.0..No.1.."
 [1] "Inhaled.corticosteroids..Yes.0..No.1."
+[1] "Inhaled.corticosteroids..Yes.0..No.1."
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  2.178521 (0.0881)
+1 - 3 : -0.601179 (0.5477)
+2 - 3 : -1.663734 (0.1442)
+
+alpha = 0.05
+Reject Ho if p <= alpha
 [1] "Mucolytic..Yes.0..No.1."
 [1] "Mucolytic..Yes.0..No.1."
 
@@ -285,9 +298,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 ---------------------------
-1 - 2 : -3.245757 (0.0035)*
-1 - 3 : -1.416152 (0.2351)
-2 - 3 :  0.189625 (0.8496)
+1 - 2 : -3.236075 (0.0036)*
+1 - 3 : -1.368226 (0.2569)
+2 - 3 :  0.246874 (0.8050)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -305,9 +318,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.399898 (0.6892)
-1 - 3 :  0.614726 (0.8081)
-2 - 3 :  0.806444 (1.0000)
+1 - 2 : -1.225223 (0.6615)
+1 - 3 :  0.444129 (0.6569)
+2 - 3 :  1.039999 (0.4475)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -318,9 +331,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -1.202432 (0.6876)
-1 - 3 : -0.148073 (0.8823)
-2 - 3 :  0.443885 (0.9857)
+1 - 2 : -0.308537 (1.0000)
+1 - 3 :  0.064112 (0.9489)
+2 - 3 :  0.214940 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -331,9 +344,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -2.125521 (0.1006)
-1 - 3 :  0.052208 (0.9584)
-2 - 3 :  1.096168 (0.4095)
+1 - 2 : -1.752808 (0.2389)
+1 - 3 :  0.166499 (0.8678)
+2 - 3 :  1.026569 (0.4569)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -344,9 +357,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.001307 (0.9990)
-1 - 3 : -0.405943 (1.0000)
-2 - 3 : -0.414557 (1.0000)
+1 - 2 : -0.298411 (0.7654)
+1 - 3 : -0.480319 (1.0000)
+2 - 3 : -0.352803 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -357,9 +370,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  2.115438 (0.1032)
-1 - 3 :  1.952382 (0.0763)
-2 - 3 :  1.038514 (0.2990)
+1 - 2 :  1.874456 (0.1826)
+1 - 3 :  1.850450 (0.0964)
+2 - 3 :  1.039171 (0.2987)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -371,9 +384,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.536234 (0.5918)
-1 - 3 : -2.015071 (0.1317)
-2 - 3 : -1.728756 (0.1258)
+1 - 2 : -0.958558 (0.3378)
+1 - 3 : -2.110373 (0.1045)
+2 - 3 : -1.590935 (0.1674)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -383,10 +396,10 @@ Reject Ho if p <= alpha
                              (Benjamini-Hochberg)                              
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
----------------------------
-1 - 2 :  2.560684 (0.0313)*
-1 - 3 : -0.202903 (0.8392)
-2 - 3 : -1.502462 (0.1995)
+--------------------------
+1 - 2 :  2.267497 (0.0701)
+1 - 3 : -0.309212 (0.7572)
+2 - 3 : -1.457182 (0.2176)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -397,9 +410,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -1.456368 (0.4359)
-1 - 3 : -1.074601 (0.4238)
-2 - 3 : -0.327290 (0.7434)
+1 - 2 : -2.306040 (0.0633)
+1 - 3 : -1.250019 (0.3169)
+2 - 3 : -0.058698 (0.9532)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -410,9 +423,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.927390 (0.5306)
-1 - 3 : -0.662829 (0.5074)
-2 - 3 : -1.129424 (0.7762)
+1 - 2 :  0.817308 (0.6206)
+1 - 3 : -0.704316 (0.4812)
+2 - 3 : -1.109064 (0.8022)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -423,9 +436,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -1.448180 (0.4427)
-1 - 3 : -0.428889 (1.0000)
-2 - 3 :  0.309813 (0.7567)
+1 - 2 : -1.321606 (0.5589)
+1 - 3 : -0.379643 (1.0000)
+2 - 3 :  0.297978 (0.7657)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -436,9 +449,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.001475 (0.9988)
-1 - 3 : -0.244054 (1.0000)
-2 - 3 : -0.241623 (1.0000)
+1 - 2 : -0.645467 (1.0000)
+1 - 3 : -0.391668 (1.0000)
+2 - 3 : -0.057577 (0.9541)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -449,9 +462,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.946796 (1.0000)
-1 - 3 :  0.592543 (0.8302)
-2 - 3 :  0.107441 (0.9144)
+1 - 2 :  1.126565 (0.7798)
+1 - 3 :  0.621287 (0.8016)
+2 - 3 :  0.039132 (0.9688)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -462,9 +475,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.765871 (0.6656)
-1 - 3 : -0.591592 (0.5541)
-2 - 3 : -0.976618 (0.9863)
+1 - 2 :  0.730867 (0.6973)
+1 - 3 : -0.613270 (0.5397)
+2 - 3 : -0.975462 (0.9880)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -475,9 +488,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -1.473487 (0.4219)
-1 - 3 : -0.067173 (0.9464)
-2 - 3 :  0.681895 (0.7430)
+1 - 2 : -1.245429 (0.6389)
+1 - 3 :  0.006871 (0.9945)
+2 - 3 :  0.639880 (0.7834)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -488,9 +501,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.591334 (1.0000)
-1 - 3 :  0.334029 (1.0000)
-2 - 3 :  0.031301 (0.9750)
+1 - 2 :  0.116385 (0.9073)
+1 - 3 :  0.218023 (1.0000)
+2 - 3 :  0.155537 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -501,9 +514,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  2.076991 (0.1134)
-1 - 3 : -0.480977 (0.6305)
-2 - 3 : -1.532880 (0.1880)
+1 - 2 :  1.796517 (0.2172)
+1 - 3 : -0.578055 (0.5632)
+2 - 3 : -1.482506 (0.2073)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -514,9 +527,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.672153 (0.7522)
-1 - 3 : -0.769727 (1.0000)
-2 - 3 : -0.422937 (0.6723)
+1 - 2 : -0.032101 (0.9744)
+1 - 3 : -0.616420 (1.0000)
+2 - 3 : -0.590709 (0.8321)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -527,9 +540,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.173122 (1.0000)
-1 - 3 :  0.166074 (1.0000)
-2 - 3 :  0.076975 (0.9386)
+1 - 2 : -0.574314 (1.0000)
+1 - 3 : -0.006298 (0.9950)
+2 - 3 :  0.285749 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -540,9 +553,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.248326 (1.0000)
-1 - 3 : -0.340622 (1.0000)
-2 - 3 : -0.212113 (0.8320)
+1 - 2 :  0.081831 (0.9348)
+1 - 3 : -0.262830 (1.0000)
+2 - 3 : -0.300424 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -553,9 +566,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.364108 (1.0000)
-1 - 3 :  0.051395 (0.9590)
-2 - 3 : -0.133943 (1.0000)
+1 - 2 :  0.459713 (1.0000)
+1 - 3 :  0.067854 (0.9459)
+2 - 3 : -0.166874 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -566,9 +579,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.951276 (0.5122)
-1 - 3 :  1.407485 (0.4779)
-2 - 3 :  0.914494 (0.3605)
+1 - 2 :  0.840496 (0.4006)
+1 - 3 :  1.372845 (0.5094)
+2 - 3 :  0.924661 (0.5327)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -578,10 +591,10 @@ Reject Ho if p <= alpha
                              (Benjamini-Hochberg)                              
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
---------------------------
-1 - 2 : -2.010173 (0.1332)
-1 - 3 : -0.408659 (0.6828)
-2 - 3 :  0.615424 (0.8074)
+---------------------------
+1 - 2 : -2.444684 (0.0435)*
+1 - 3 : -0.478706 (0.6321)
+2 - 3 :  0.771341 (0.6608)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -592,9 +605,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.507776 (0.9174)
-1 - 3 :  0.258664 (0.7959)
-2 - 3 :  0.514859 (1.0000)
+1 - 2 : -0.446870 (0.9825)
+1 - 3 :  0.281154 (0.7786)
+2 - 3 :  0.504036 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -605,9 +618,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.887223 (1.0000)
-1 - 3 : -0.313907 (0.7536)
-2 - 3 : -0.762499 (0.6686)
+1 - 2 :  1.295786 (0.5851)
+1 - 3 : -0.235344 (0.8139)
+2 - 3 : -0.890471 (0.5598)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -618,9 +631,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.893245 (1.0000)
-1 - 3 : -0.123929 (0.9014)
-2 - 3 : -0.576889 (0.8460)
+1 - 2 :  0.868909 (1.0000)
+1 - 3 : -0.143440 (0.8859)
+2 - 3 : -0.582964 (0.8399)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -631,9 +644,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.172192 (0.8633)
-1 - 3 :  1.094659 (0.8210)
-2 - 3 :  0.999636 (0.4762)
+1 - 2 :  1.076876 (0.4223)
+1 - 3 :  1.302128 (0.5786)
+2 - 3 :  0.734858 (0.4624)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -644,9 +657,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.539397 (0.5896)
-1 - 3 :  1.487885 (0.2052)
-2 - 3 :  1.751677 (0.2395)
+1 - 2 : -0.168580 (0.8661)
+1 - 3 :  1.585857 (0.1692)
+2 - 3 :  1.647392 (0.2984)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -657,9 +670,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.742691 (0.6865)
-1 - 3 : -0.376499 (0.7065)
-2 - 3 : -0.751230 (1.0000)
+1 - 2 :  0.434869 (0.6637)
+1 - 3 : -0.459237 (0.9691)
+2 - 3 : -0.673305 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -670,9 +683,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.272343 (1.0000)
-1 - 3 : -0.191534 (0.8481)
-2 - 3 : -0.328579 (1.0000)
+1 - 2 :  0.431594 (1.0000)
+1 - 3 : -0.160045 (0.8728)
+2 - 3 : -0.377008 (1.0000)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -683,9 +696,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 ---------------------------
-1 - 2 : -2.627299 (0.0258)*
-1 - 3 :  0.646576 (0.5179)
-2 - 3 :  1.976922 (0.0721)
+1 - 2 : -2.636464 (0.0251)*
+1 - 3 :  0.686565 (0.4924)
+2 - 3 :  2.016350 (0.0656)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -695,10 +708,10 @@ Reject Ho if p <= alpha
                              (Benjamini-Hochberg)                              
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
---------------------------
-1 - 2 :  2.116611 (0.1029)
-1 - 3 : -0.705882 (0.4803)
-2 - 3 : -1.776365 (0.1135)
+---------------------------
+1 - 2 :  2.624356 (0.0260)*
+1 - 3 : -0.624723 (0.5322)
+2 - 3 : -1.949294 (0.0769)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -709,9 +722,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.803062 (1.0000)
-1 - 3 :  0.474968 (0.9522)
-2 - 3 :  0.063700 (0.9492)
+1 - 2 :  0.747306 (1.0000)
+1 - 3 :  0.451793 (0.9771)
+2 - 3 :  0.065017 (0.9482)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -722,9 +735,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.939233 (0.5214)
-1 - 3 : -1.027527 (0.9125)
-2 - 3 : -0.543271 (0.5869)
+1 - 2 : -1.327420 (0.5531)
+1 - 3 : -1.105433 (0.4035)
+2 - 3 : -0.413797 (0.6790)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -735,9 +748,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.343227 (0.7314)
-1 - 3 : -1.015813 (0.4646)
-2 - 3 : -1.183192 (0.7102)
+1 - 2 :  0.467291 (0.6403)
+1 - 3 : -0.996350 (0.4786)
+2 - 3 : -1.218716 (0.6689)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -748,9 +761,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  1.266034 (0.6165)
-1 - 3 : -0.498051 (0.6184)
-2 - 3 : -1.137829 (0.3828)
+1 - 2 :  1.337271 (0.5434)
+1 - 3 : -0.502756 (0.6151)
+2 - 3 : -1.174897 (0.3601)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -761,9 +774,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  1.006222 (0.9429)
-1 - 3 : -0.133352 (0.8939)
-2 - 3 : -0.643645 (0.7797)
+1 - 2 :  0.782146 (1.0000)
+1 - 3 : -0.200128 (0.8414)
+2 - 3 : -0.594683 (0.8281)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -774,9 +787,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  1.654092 (0.1472)
-1 - 3 : -0.974229 (0.3299)
-2 - 3 : -1.807881 (0.2119)
+1 - 2 :  1.923332 (0.1633)
+1 - 3 : -0.941379 (0.3465)
+2 - 3 : -1.904761 (0.0852)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -787,9 +800,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 ---------------------------
-1 - 2 :  3.256255 (0.0034)*
-1 - 3 :  0.075905 (0.9395)
-2 - 3 : -1.578959 (0.1715)
+1 - 2 :  3.557923 (0.0011)*
+1 - 3 :  0.095626 (0.9238)
+2 - 3 : -1.714499 (0.1297)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -800,9 +813,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 ---------------------------
-1 - 2 :  0.292028 (0.7703)
-1 - 3 : -2.499594 (0.0187)*
-2 - 3 : -2.630741 (0.0256)*
+1 - 2 :  0.072128 (0.9425)
+1 - 3 : -2.563027 (0.0311)*
+2 - 3 : -2.560642 (0.0157)*
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -813,9 +826,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 ---------------------------
-1 - 2 :  3.405562 (0.0020)*
-1 - 3 : -0.104045 (0.9171)
-2 - 3 : -1.833525 (0.1001)
+1 - 2 :  3.166599 (0.0046)*
+1 - 3 : -0.210436 (0.8333)
+2 - 3 : -1.816969 (0.1038)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -826,9 +839,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -1.114483 (0.3976)
-1 - 3 : -1.479198 (0.4173)
-2 - 3 : -0.902795 (0.3666)
+1 - 2 : -1.280418 (0.3006)
+1 - 3 : -1.505406 (0.3967)
+2 - 3 : -0.831569 (0.4057)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -839,9 +852,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  0.517652 (0.6047)
-1 - 3 : -1.198875 (0.3459)
-2 - 3 : -1.453611 (0.4382)
+1 - 2 :  0.601377 (0.5476)
+1 - 3 : -1.191898 (0.3500)
+2 - 3 : -1.479448 (0.4171)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -852,9 +865,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  1.818655 (0.2069)
-1 - 3 :  0.559994 (0.8632)
-2 - 3 : -0.367831 (0.7130)
+1 - 2 :  2.308966 (0.0628)
+1 - 3 :  0.646196 (0.7772)
+2 - 3 : -0.537411 (0.5910)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -865,9 +878,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 :  1.201251 (0.6890)
-1 - 3 : -0.007953 (0.9937)
-2 - 3 : -0.618194 (0.8047)
+1 - 2 :  1.459290 (0.4335)
+1 - 3 :  0.032639 (0.9740)
+2 - 3 : -0.709687 (0.7168)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -877,10 +890,10 @@ Reject Ho if p <= alpha
                              (Benjamini-Hochberg)                              
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
---------------------------
-1 - 2 : -2.280709 (0.0677)
-1 - 3 :  0.436237 (0.6627)
-2 - 3 :  1.591947 (0.1671)
+---------------------------
+1 - 2 : -2.498916 (0.0374)*
+1 - 3 :  0.422589 (0.6726)
+2 - 3 :  1.686474 (0.1376)
 
 alpha = 0.05
 Reject Ho if p <= alpha
@@ -891,9 +904,9 @@ Reject Ho if p <= alpha
 
 List of pairwise comparisons: Z statistic (adjusted p-value)
 --------------------------
-1 - 2 : -0.625633 (0.5316)
-1 - 3 :  1.209510 (0.3397)
-2 - 3 :  1.519031 (0.3863)
+1 - 2 : -0.343763 (0.7310)
+1 - 3 :  1.287525 (0.2969)
+2 - 3 :  1.442660 (0.4473)
 
 alpha = 0.05
 Reject Ho if p <= alpha

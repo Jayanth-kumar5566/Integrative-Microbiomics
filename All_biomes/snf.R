@@ -1,17 +1,25 @@
 library("SNFtool")
 library("vegan")
-source("modified_functions.R")
 
 b_data=read.csv("./../Data/bacteria.csv",row.names = 1)
 f_data=read.csv("./../Data/fungi.csv",row.names = 1)
 v_data=read.csv("./../Data/virus.csv",row.names = 1)
 
-v_a<-colSums(v_data)
-for (i in colnames(v_data)){
-  if (v_a[[i]]==0){v_data[[i]]<-NULL}
+#Filter and finding the weights
+list_sel=list()
+count=1
+for (d in list(b_data,f_data,v_data)){
+  z=colSums(d>0)
+  sel_col=row.names(as.data.frame(z[z>=10])) #In 5% patients prevalent
+  #print(sel_col)
+  list_sel[[count]]<-sel_col
+  count=count+1
 }
 
-v_data<-v_data[,c("PIV3","PIV4","RV","Boca")] #Selected viruses after prevalance filter for atleast 5 patients
+b_data<-b_data[,list_sel[[1]]]
+f_data<-f_data[,list_sel[[2]]]
+v_data<-v_data[,list_sel[[3]]]
+remove(d,list_sel,count,sel_col,z)
 
 b_dsim=vegdist(b_data,method='bray',diag=TRUE,upper=TRUE)
 f_dsim=vegdist(f_data,method='bray',diag=TRUE,upper=TRUE)
@@ -24,7 +32,7 @@ W2=(as.matrix(f_dsim)-1)*-1
 W3=(as.matrix(v_dsim)-1)*-1
 
 
-  for (i in 1:217){
+  for (i in 2:217){
     W = SNF(list(W1,W2,W3),i,20)
     z=estimateNumberOfClustersGivenGraph(W)$`Eigen-gap best`
     print(paste(c(i,z),sep = " "))
@@ -33,7 +41,7 @@ W3=(as.matrix(v_dsim)-1)*-1
     write.csv(W,paste(c('Tuning_k/matrix',i,".csv"),collapse = ""))
   }
 
-  W = SNF(list(W1,W2,W3),7,20)
+  W = SNF(list(W1,W2,W3),9,20)
   z=estimateNumberOfClustersGivenGraph(W)$`Eigen-gap best`
   labels=spectralClustering(W,z)
   print(table(labels))
