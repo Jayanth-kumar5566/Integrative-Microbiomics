@@ -1,10 +1,10 @@
 from __future__ import division
 import pandas
 
-bac=pandas.read_csv("./../Data/bacteria.csv",index_col=0)
-fun=pandas.read_csv("./../Data/fungi.csv",index_col=0)
-vir=pandas.read_csv("./../Data/virus.csv",index_col=0)
-lab=pandas.read_csv("./../Dual_biome_clustering/results/b+f_labels.csv",index_col=0)
+bac=pandas.read_csv("./../../Data/bacteria.csv",index_col=0)
+fun=pandas.read_csv("./../../Data/fungi.csv",index_col=0)
+vir=pandas.read_csv("./../../Data/virus.csv",index_col=0)
+lab=pandas.read_csv("./../All_biomes/results/labels.csv",index_col=0)
 
 vir=vir.div(vir.sum(axis=1), axis=0)
 vir=vir.multiply(100, fill_value=0) #Normalize
