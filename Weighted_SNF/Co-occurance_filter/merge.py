@@ -21,10 +21,10 @@ nsel=df.sum(axis=0)
 n=nsel[nsel==0].index
 df.drop(columns=n,inplace=True)
 
-#Non-zero value in atleast 5 patients
+#Non-zero value in atleast 10 patients
 nsel=df>0.01
 nsel=nsel.sum(axis=0)
-y=nsel[nsel<5].index #5 or greater than 5
+y=nsel[nsel<10].index #5%
 df.drop(columns=y,inplace=True)
 
 df.rename(columns={"labels":"x"},inplace=True)

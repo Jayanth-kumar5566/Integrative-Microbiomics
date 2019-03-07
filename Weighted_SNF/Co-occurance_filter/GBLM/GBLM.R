@@ -30,7 +30,7 @@ r2<-function(model,col=i,data=data){
   return(error)
 }
 
-for (i in 1:35){
+for (i in 1:24){
   x_nam=rownames(cr_mat)[i]
   ind1=abs(cr_mat[i,]) > 0.05 & abs(cr_mat[i,]) != 1
   cool=which(ind1, arr.ind = T)
@@ -99,7 +99,7 @@ for (i in 1:35){
   p_m[x_nam,colnames(out_comb)[i]]<-p_test[i]
 }
 }
-write.csv(m,paste(files[count],"Adjacency_matrix.csv",sep='_'))
-write.csv(p_m,paste(files[count],"p_values.csv",sep='_'))
+write.csv(m,paste(files[count],"Adj.csv",sep='_'))
+write.csv(p_m,paste(files[count],"p_val.csv",sep='_'))
 count=count+1
 }
