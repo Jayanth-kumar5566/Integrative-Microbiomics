@@ -30,7 +30,7 @@ r2<-function(model,col=i,data=data){
   return(error)
 }
 
-for (i in 1:501){
+for (i in 1:35){
   x_nam=rownames(cr_mat)[i]
   ind1=abs(cr_mat[i,]) > 0.05 & abs(cr_mat[i,]) != 1
   cool=which(ind1, arr.ind = T)

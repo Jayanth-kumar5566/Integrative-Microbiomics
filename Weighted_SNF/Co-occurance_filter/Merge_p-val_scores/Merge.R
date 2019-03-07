@@ -5,7 +5,7 @@ scoring<-function(arr){
 }
 
 m_score=0
-p_m=array(0,c(501,501,5)) #To change
+p_m=array(0,c(35,35,5)) #To change
 
 cluster="cluster2"
 
