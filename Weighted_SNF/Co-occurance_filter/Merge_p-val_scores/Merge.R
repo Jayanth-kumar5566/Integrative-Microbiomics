@@ -7,7 +7,7 @@ scoring<-function(arr){
 m_score=0
 p_m=array(0,c(24,24,5)) #To change
 
-cluster="cluster2"
+cluster="cluster1"
 
 count=1
 methods=c("Bray-Curtis","GBLM","MI","Pearsons","Spearman")

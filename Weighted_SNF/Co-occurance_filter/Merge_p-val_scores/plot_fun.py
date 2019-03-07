@@ -2,9 +2,9 @@ import pandas
 import networkx as nx
 import matplotlib.pyplot as plt
 import math
-for i in ["clust_1","clust_2"]:
+for i in ["cluster1","cluster2"]:
 	Adj=pandas.read_csv(str(i)+"_adj.csv")
-	p=pandas.read_csv(str(i)+"_p_values.csv")
+	p=pandas.read_csv(str(i)+"_pvalues.csv")
 	Adj.set_index("Unnamed: 0",inplace=True)
 	p.set_index("Unnamed: 0",inplace=True)
 	p.fillna(1,inplace=True) #To not select them
