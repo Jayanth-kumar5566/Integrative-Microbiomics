@@ -75,7 +75,7 @@ SNF_weighted_iter<-function (Wall, K = 20, t = 20, weight)
   }
   LW <- length(Wall) #Total number of views
   weight=weight/sum(weight)
-  weight=weight*(LW-1)
+  weight=weight*(LW)
   normalize <- function(X) {
     row.sum.mdiag <- rowSums(X) - diag(X)
     row.sum.mdiag[row.sum.mdiag == 0] <- 1 #making zeros 1
@@ -98,12 +98,14 @@ SNF_weighted_iter<-function (Wall, K = 20, t = 20, weight)
   for (i in 1:t) {
     for (j in 1:LW) {
       sumWJ <- matrix(0, dim(Wall[[j]])[1], dim(Wall[[j]])[2])
+      tmp<-0
       for (k in 1:LW) {
         if (k != j) {
           sumWJ <- sumWJ + weight[k]*Wall[[k]]  #possible weighting option 1
+          tmp<-tmp+weight[k]
         }
       }
-      nextW[[j]] <- newW[[j]] %*% (sumWJ/(LW - 1)) %*% 
+      nextW[[j]] <- newW[[j]] %*% (sumWJ/(tmp)) %*% 
         t(newW[[j]])
     }
     for (j in 1:LW) {
