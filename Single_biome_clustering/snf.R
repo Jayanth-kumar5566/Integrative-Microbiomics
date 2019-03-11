@@ -1,5 +1,8 @@
 library("SNFtool")
 library("vegan")
+library("reticulate")
+use_python("/usr/local/bin/python")
+source_python("./../Weighted_SNF/Dual_biome_clustering/sil.py")
 source("modified_functions.R")
 
 b_data=read.csv("./../Data/bacteria.csv",row.names = 1)
@@ -51,6 +54,7 @@ count<-1
 for (x in list(W1,W2,W3)){
 labels=spectralClustering(x,clusters[count])
 lab=as.data.frame(labels,row.names = row.names(b_data))
+print(silhouette_score(x,labels))
 write.csv(lab,paste('./results/',names[count],"_labels",".csv",sep=''))
 write.csv(x,paste('./results/',names[count],"_matrix",".csv",sep=''))
 count=count+1
