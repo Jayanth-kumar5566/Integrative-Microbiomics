@@ -32,9 +32,10 @@ else:
 
 df=y.join(lab,how="inner")
 
-#Dropping 0 columns
-nsel=df.sum(axis=0)
-n=nsel[nsel==0].index
+#Dropping columns that are less prevalent than 10
+tdf=df>0
+nsel=tdf.sum(axis=0)
+n=nsel[nsel<10].index
 df.drop(columns=n,inplace=True)
 df=df.transpose()
 df.index.name = 'PatientID'
