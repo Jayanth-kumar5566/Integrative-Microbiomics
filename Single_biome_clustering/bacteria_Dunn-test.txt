@@ -293,19 +293,6 @@ alpha = 0.05
 Reject Ho if p <= alpha
 [1] "Long.term.antibiotics..Yes.0..No.1."
 [1] "Antifungal..Yes.0..No.1."
-[1] "Antifungal..Yes.0..No.1."
-
-                           Comparison of x by group                            
-                             (Benjamini-Hochberg)                              
-
-List of pairwise comparisons: Z statistic (adjusted p-value)
----------------------------
-1 - 2 : -2.319622 (0.0305)*
-1 - 3 : -2.678759 (0.0222)*
-2 - 3 : -0.791289 (0.4288)
-
-alpha = 0.05
-Reject Ho if p <= alpha
 [1] "Oral.steroids..Yes.0..No.1."
 [1] "Pseudomonas.aeruginosa.presence..by.culture."
 [1] "Pneumococcal.vaccine..Yes.0..No.1."
