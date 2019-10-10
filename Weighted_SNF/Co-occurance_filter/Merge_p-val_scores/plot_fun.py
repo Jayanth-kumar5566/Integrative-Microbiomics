@@ -1,9 +1,7 @@
 import pandas
-import networkx as nx
-import matplotlib.pyplot as plt
 import math
 for i in ["cluster1","cluster2"]:
-	Adj=pandas.read_csv(str(i)+"_adj.csv")
+	Adj=pandas.read_csv(str(i)+"_scores.csv")
 	p=pandas.read_csv(str(i)+"_pvalues.csv")
 	Adj.set_index("Unnamed: 0",inplace=True)
 	p.set_index("Unnamed: 0",inplace=True)
