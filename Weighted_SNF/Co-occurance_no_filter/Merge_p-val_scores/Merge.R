@@ -1,5 +1,5 @@
 scoring<-function(arr){
-  m<-max(arr,na.rm = TRUE)
+  m<-max(abs(arr),na.rm = TRUE)
   arr<-(arr/m)*100
   return(arr)
 }
@@ -23,9 +23,23 @@ for (i in methods){
   p_m[,,count]<-as.matrix(p)
   #ind<-p>0.01   #Unnecessary if combined p-values is used
   #data[ind]<-0
-  m_score<-m_score+w[count]*scoring(data)
+  m_score<-m_score+w[count]*abs(scoring(data))
   count=count+1
 }
+# Calculating the sign of the score
+m_score_sign=0
+methods=c("GBLM","Pearsons","Spearman")
+count=1
+w=c(1/2,1/4,1/4)
+for (i in methods){
+  data<-read.csv(paste("./../",i,"/",cluster,"Adj.csv",sep=""))
+  row.names(data)<-data$X
+  data$X<-NULL
+  m_score_sign<-m_score_sign+w[count]*scoring(data)
+  count=count+1
+}
+
+m_score=m_score*sign(m_score_sign)
 
 write.csv(m_score,"Merged_scores.csv")
 
